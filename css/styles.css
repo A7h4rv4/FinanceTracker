@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #f5ebf9;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e42e7;
+    height: 60px;
+    z-index: 10000;
+}
+
+.logo h2 {
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo h2 span {
+    font-weight: 600;
+}
+
+header div ul {
+    display: flex;
+}
+
+header div ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.navbtn {
+    margin: 5px;
+    background-color: #5e42e7;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 100px;
+    transition: all 0.2s ease;
+}
+
+.navbtn:hover {
+    cursor: pointer;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.586);
+    transform: scale(1.1);
+}
+
+.monthselect {
+    margin: 5px 20px;
+    font-weight: bold;
+}
+
+.monthselect select {
+    padding: 5px;
+    background: #f5ebf9;
+    border-radius: 5px;
+}
+
+#sub {
+    background: #f5ebf9;
+    border: 0.800px solid gray;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#sub:hover {
+    cursor: pointer;
+}
+
+.chart {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}

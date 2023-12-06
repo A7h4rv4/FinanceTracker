@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiseWallet-Register</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <h2>WISE<span>WALLET</span></h2>
+            </a>
+        </div>
+        <h3>Register</h3>
+        <form action="process-register.php" method="post" novalidate>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="password_confirm">Confirm Password</label>
+                <input type="password" name="password_confirm" id="password_confirm">
+            </div>
+            <button class="getin">Sign-Up</button>
+        </form>
+        <p>Already have an account?<a href="login.php">Log-In</a>.</p>
+    </div>
+</body>
+
+</html>
